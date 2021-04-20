@@ -62,9 +62,9 @@
             
             <!--Button in fondo-->
             <StackPanel Grid.Row="6" Grid.ColumnSpan="2" Grid.RowSpan="4">
-                <Button Content="Inserisci" Height="25" Width="100" HorizontalAlignment="Center" Margin="0,30,0,0"/>
-                <Button Content="Pulisci" Height="25" Width="100" HorizontalAlignment="Center" Margin="0,10,0,0"/>
-                <Button Content="Esci" Height="25" Width="100" HorizontalAlignment="Center" Margin="0,10,0,0"/>
+                <Button x:Name="btn_Inserisci" Content="Inserisci" Height="25" Width="100" HorizontalAlignment="Center" Margin="0,30,0,0" Click="btn_Inserisci_Click"/>
+                <Button x:Name="btn_Pulisci" Content="Pulisci" Height="25" Width="100" HorizontalAlignment="Center" Margin="0,10,0,0" Click="btn_Pulisci_Click"/>
+                <Button x:Name="btn_Esci" Content="Esci" Height="25" Width="100" HorizontalAlignment="Center" Margin="0,10,0,0" Click="btn_Esci_Click"/>
             </StackPanel>
         </Grid>
     </Grid>
